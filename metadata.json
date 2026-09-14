@@ -1,0 +1,6 @@
+{
+  "name": "Deho Cafe",
+  "description": "Deho Cafe — Authentic seafood restaurant in Karaton, Luwuk, Banggai Regency, Central Sulawesi, Indonesia. Savor fresh grilled fish, seafood specialties, dine-in and takeaway.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Alfa Slab One", cursive, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-brand-lime: #b0d12a;
+  --color-brand-lime-hover: #9ebb20;
+  --color-brand-orange: #f26522;
+  --color-brand-dark: #1c1410;
+  --color-brand-warm: #faf8f4;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #2b221d;
+  background-color: #faf8f4;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-serif-display {
+  font-family: var(--font-serif);
+}
+
+/* Wavy torn-edge styling matching the reference dividers */
+.wavy-border-top {
+  position: relative;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #faf8f4;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4c8be;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b0d12a;
+}
+
