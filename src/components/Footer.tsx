@@ -100,6 +100,7 @@ export const Footer: React.FC = () => {
           <p>© {new Date().getFullYear()} Deho Cafe. All rights reserved.</p>
           <div className="flex items-center gap-4 mt-3 sm:mt-0">
             <span>Seafood Restaurant in Luwuk, Banggai Regency</span>
+            <a href="https://nakamadigital.biz.id/" target="_blank" rel="noreferrer noopener" className="hover:text-white transition-colors">Website by Nakama Digital</a>
             <button
               onClick={scrollToTop}
               className="hover:text-white flex items-center gap-1 cursor-pointer transition-colors"
